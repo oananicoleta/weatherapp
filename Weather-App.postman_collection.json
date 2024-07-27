@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "f7235a52-f3c4-44e2-8a61-f74c9eaf96f3",
+		"name": "Weather-App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36849169"
+	},
+	"item": [
+		{
+			"name": "get weather for a city",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get forecast",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get icon",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

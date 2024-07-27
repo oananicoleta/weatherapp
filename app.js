@@ -21,7 +21,7 @@ async function showWeather() {
   const iconImageUrl = `http://openweathermap.org/img/w/${iconCode}.png`;
 
   weatherContainer.innerHTML = `
-    <div>
+    <div class="weather-container bg-dark shadow grid rel">
         <img src=${iconImageUrl} />
         <p>Description: ${weather.weather[0].description}</p>
         <p>Humidity: ${weather.main.humidity}% </p>
@@ -52,7 +52,7 @@ async function showForecast() {
 
     const forecastItem = document.createElement("div");
     forecastItem.innerHTML = `
-      <div>
+      <div class="forecast-container grid rel bg-dark shadow">
         <img src=${iconImageUrl} />
         <p>${day}</p>
         <p>Hour: ${time}</p>

@@ -6,15 +6,21 @@
     <link rel="stylesheet" href="style.css" />
     <title>Weather App</title>
   </head>
-  <body>
-    <div class="container">
-      <div>
-        <label for="city">City</label>
-        <input type="text" id="city" />
-      </div>
-      <div>
-        <button id="show-weather">Show Weather</button>
-        <button id="show-forecast">Show Forecast</button>
+  <body class="bg-light">
+    <div class="container flex">
+      <div class="main-box rel bg-dark shadow flex">
+        <div>
+          <label for="city">City</label>
+          <input type="text" id="city" value="" />
+        </div>
+        <div>
+          <button id="show-weather" class="button rel bg-light shadow">
+            Show Weather
+          </button>
+          <button id="show-forecast" class="button rel bg-light shadow">
+            Show Forecast
+          </button>
+        </div>
       </div>
       <div id="weather-container"></div>
       <div id="weather-forecast"></div>
